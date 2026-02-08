@@ -14,7 +14,7 @@ op run api            # run API (port 8081)
 op run frontend       # run frontend (port 8080)
 ```
 
-Ports and env are preconfigured in **op-run.yaml**. **op run** is for local dev only (not production; use docker-compose, Kubernetes/kind, or your deploy path for that).
+Ports and env are preconfigured in **.run.yaml**. **op run** is for local dev only (not production; use docker-compose, Kubernetes/kind, or your deploy path for that).
 
 Open http://localhost:8080. Set API URL to `http://localhost:8081`.
 
