@@ -1,0 +1,14 @@
+# Preconfigured ports, env, and volumes for "op run <context>"
+# See https://github.com/octopilot/octopilot-pipeline-tools
+default_repo: localhost:5001
+tag: latest
+
+contexts:
+  api:
+    ports: ["8081:8080"]
+    env:
+      PORT: "8080"
+  frontend:
+    ports: ["8080:8080"]
+    env:
+      PORT: "8080"
